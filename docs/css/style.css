@@ -1,0 +1,35 @@
+.pulsate {
+  /*animation-delay: 2s;*/
+  animation: pulse 4s infinite;
+  margin: 0 auto;
+  display: table;
+  /*margin-top: 50px;*/
+  animation-direction: alternate;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.0;
+  }
+}
+
+html,
+body {
+    background-image: url('./images/mastery_of_art_dark.jpg');
+    background-size: cover;
+    margin: 0px;
+  /*background-color: #2b0027;*/
+}
+/*
+body {
+    
+  background-image: url('./images/mastery_of_art_dark.jpg');
+    background-size: cover
+}
+*/
